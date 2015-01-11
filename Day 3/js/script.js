@@ -115,3 +115,32 @@ console.log (phrase)
 var phrase2 = "I don't know!\nYou never know!";
 console.log(phrase2);
 
+// Boolean
+// kind of a light switch either on or off
+// true or false - NOT "true" or "false"
+
+var yes = true;
+var nope= false;
+
+// this is a not a boolean
+var wrong= "true";
+
+
+
+// order of operations
+// PEMDAS- please excuse my dear aunt sally
+// parenthesis, exponents, multiplication, division, addition, subtraction
+
+// Find quiz averages
+
+var quiz1= 87;
+var quiz2= 100;
+var quiz3= 70;
+
+// average- add them and divide how many there are
+
+var average= (quiz1 + quiz2+ quiz3)/3;
+console.log(average);
+
+// do not overuse parenthesis
+
