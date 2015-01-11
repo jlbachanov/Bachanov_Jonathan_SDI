@@ -163,7 +163,7 @@ var combine = d + e;
 console.log(combine);
 
 // Constant values are always UPPERCASE
-var PI= 3.14;
+var PI= 314;
 
 // Round to a decimal place
 // toFixed(#)- is # is how many decimal places we want
