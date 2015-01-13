@@ -56,8 +56,9 @@ price= op-(op * dpt);  // assigned value to price without sales tax.
 var stprice; // declared amount of item with sales tax
 stprice= price- (price* tax); // value of item with sales tax
 
-console.log ("Your" + " "+ item + " "+"was originally"+ " " +op+ " " + "but after a 10% discount, it is	now	$" + price+ " "+ "without tax" + " "+
+console.log ("Your" + " "+ item + " "+"was originally"+ " " +op+ " " + "but after a 10% discount,it is	now	$" + price+ " "+ "without tax" + " "+
 	stprice + " "+ "with tax.");
+
 
 
 
