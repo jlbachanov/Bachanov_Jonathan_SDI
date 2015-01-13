@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf3c339c-15ee-42e0-9d7c-1c9f3357e619" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day3LabExpressions./ExpressionsAssignment.js" afterPath="$PROJECT_DIR$/Day3LabExpressions./ExpressionsAssignment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 4/js/day4.js" afterPath="$PROJECT_DIR$/Day 4/js/day4.js" />
     </list>
     <ignored path="Bachanov_Jonathan_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,8 +41,8 @@
       <file leaf-file-name="day4.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day 4/js/day4.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20119224" vertical-offset="0" max-vertical-offset="671">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.9165425" vertical-offset="0" max-vertical-offset="705">
+              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -378,8 +377,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day 4/js/day4.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20119224" vertical-offset="0" max-vertical-offset="671">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.9165425" vertical-offset="0" max-vertical-offset="705">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
