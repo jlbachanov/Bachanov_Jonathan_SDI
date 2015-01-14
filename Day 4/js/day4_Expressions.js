@@ -24,8 +24,11 @@ Expressions Assignment
 
  var total = userInputs[0];
  var nTotal = total/=5;
- console.log("The amonut of money that was spent on monday was " + userInput + " , on Tuesday it was "+ userInput1 +
- " ,on Wednesday it was " + userInput2 + " on Thursday it was" + userInput3 Total);
+ console.log("The amount of money that was spent on monday was " + userInput + " dollars, on Tuesday it was "+ userInput1 +
+ " dollars,on Wednesday it was " + userInput2 + " dollars,on Thursday it was " + userInput3 + " dollars,on Friday it was " + userInput4+ " dollars. " +
+ "The total amount of money spent for the week is " + userInputs[0] + " dollars. The average amount of money spent per day this week was "
+ + nTotal+ ".");
+
 
 
 
