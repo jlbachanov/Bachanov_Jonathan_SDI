@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf3c339c-15ee-42e0-9d7c-1c9f3357e619" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 4/js/day4.js" afterPath="$PROJECT_DIR$/Day 4/js/day4.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 4/js/day4_Expressions.js" afterPath="$PROJECT_DIR$/Day 4/js/day4_Expressions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 4/js/day4_Prompting.js" afterPath="$PROJECT_DIR$/Day 4/js/day4_Prompting.js" />
     </list>
     <ignored path="Bachanov_Jonathan_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/Day 4/day 4 expressions.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="240">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -95,8 +93,8 @@
       <file leaf-file-name="day4_Expressions.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day 4/js/day4_Expressions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7823129" vertical-offset="0" max-vertical-offset="585">
-              <caret line="23" column="84" selection-start-line="23" selection-start-column="84" selection-end-line="23" selection-end-column="84" />
+            <state vertical-scroll-proportion="0.64625853" vertical-offset="0" max-vertical-offset="600">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -479,14 +477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day 4/Day4Arrays.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="240">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day 4/js/day4.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-27.777779" vertical-offset="0" max-vertical-offset="1605">
@@ -494,14 +484,6 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day 4/day 4 expressions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="240">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -539,10 +521,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Day 4/Day4Arrays.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="240">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 4/day 4 expressions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="240">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Day 4/js/day4_Expressions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7823129" vertical-offset="0" max-vertical-offset="585">
-          <caret line="23" column="84" selection-start-line="23" selection-start-column="84" selection-end-line="23" selection-end-column="84" />
+        <state vertical-scroll-proportion="0.64625853" vertical-offset="0" max-vertical-offset="600">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
