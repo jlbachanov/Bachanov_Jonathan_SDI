@@ -6,11 +6,17 @@ SDI Campus
 Expressions Assignment
  */
 //alert ("Testing to see if it works");
-// Calculate monthly spending money
+// Calculate lunch prices per work day, per work week and work year.
 
- var dadIncome = prompt("Please enter the husbands monthly income:");
- var wifeIncome= prompt("Please enter the wives monthly income:");
- var expenses= prompt("Please enter your household monthly expenses");
- var totalIncome= dadIncome + wifeIncome
- var spendingMoney= totalIncome-expenses
- 
+ var lunchPrices = [12, 11, 14, 12, 15];
+
+ var daily= (lunchPrices [0] + lunchPrices[1] + lunchPrices[2] + lunchPrices[3]+lunchPrices[4])/5
+ console.log(" The average amount of money I spend on a five day work week per day is " + daily+0 + " dollars a day.");
+
+ var total= lunchPrices [0] + lunchPrices[1] + lunchPrices[2] + lunchPrices[3]+lunchPrices[4];
+ console.log( "The total amount of money I spend on lunch for the week is "+ total+ " dollars");
+
+
+
+
+
