@@ -10,9 +10,7 @@ Prompting
 // Save the user's respnose -by creating a variable
 //prompt("Enter your year of birth?");
 
-var userInput= prompt("Enter your year of birth?");
-console.log(userInput);
-
+f
 // Calculate the area of a rectangle
 // m area= length * width
 
