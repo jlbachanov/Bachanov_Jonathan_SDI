@@ -23,8 +23,10 @@ Expressions Assignment
  userInputs[0] +=   userInputs[1] += userInputs[2] += userInputs[3] += userInputs[4];
 
  var total = userInputs[0];
- var nTotal = total/5;
- console.log(nTotal);
+ var nTotal = total/=5;
+ console.log("The amonut of money that was spent on monday was " + userInput + " , on Tuesday it was "+ userInput1 +
+ " ,on Wednesday it was " + userInput2 + " on Thursday it was" + userInput3 Total);
+
 
 
 
