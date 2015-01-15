@@ -23,3 +23,4 @@ if(oldEnough){ //code inside of {} will run if test is true.
     console.log("You can ride the coaster!")
 
 }
+console.log ("What comes after the if the statement");

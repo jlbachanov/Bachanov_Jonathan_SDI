@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf3c339c-15ee-42e0-9d7c-1c9f3357e619" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day 4/day 4 expressions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day 4/js/day4_Expressions.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 5/day5conditional.js" afterPath="$PROJECT_DIR$/Day 5/day5conditional.js" />
     </list>
     <ignored path="Bachanov_Jonathan_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/Day 5/day5conditional.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.55886734" vertical-offset="0" max-vertical-offset="671">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -158,8 +156,8 @@
         <option value="$PROJECT_DIR$/Day 4/js/day4_Expressions.js" />
         <option value="$PROJECT_DIR$/Bachanov_Jonathan_Expressions_Assingment/day 4 expressions.html" />
         <option value="$PROJECT_DIR$/Day 4/day 5 Conditional.html" />
-        <option value="$PROJECT_DIR$/Day 5/day5conditional.js" />
         <option value="$PROJECT_DIR$/Day 5/day 5 Conditional.html" />
+        <option value="$PROJECT_DIR$/Day 5/day5conditional.js" />
       </list>
     </option>
   </component>
@@ -660,7 +658,7 @@
     <entry file="file://$PROJECT_DIR$/Day 5/day5conditional.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.55886734" vertical-offset="0" max-vertical-offset="671">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
