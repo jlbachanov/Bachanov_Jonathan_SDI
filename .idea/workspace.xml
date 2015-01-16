@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf3c339c-15ee-42e0-9d7c-1c9f3357e619" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Bachanov_Jonathan_Expressions_Assingment/day4_Expressions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day 4/day 4 expressions copy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day 4/js/day4_Expressions copy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day 5/day5conditional.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bachanov_Jonathan_Expressions_Assingment/day 4 expressions.html" afterPath="$PROJECT_DIR$/Bachanov_Jonathan_Expressions_Assingment/day 4 expressions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 5/js/day 5_Logical_Operators.js" afterPath="$PROJECT_DIR$/Day 5/js/day 5_Logical_Operators.js" />
     </list>
     <ignored path="Bachanov_Jonathan_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,9 +49,11 @@
       <file leaf-file-name="day 5_Logical_Operators.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day 5/js/day 5_Logical_Operators.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.022354694" vertical-offset="0" max-vertical-offset="671">
-              <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-              <folding />
+            <state vertical-scroll-proportion="0.86587185" vertical-offset="109" max-vertical-offset="780">
+              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -733,9 +730,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day 5/js/day 5_Logical_Operators.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.022354694" vertical-offset="0" max-vertical-offset="671">
-          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-          <folding />
+        <state vertical-scroll-proportion="0.86587185" vertical-offset="109" max-vertical-offset="780">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
