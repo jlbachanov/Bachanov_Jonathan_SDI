@@ -20,13 +20,13 @@ Expressions Assignment
 
  var week = [monday, tuesday, wednesday, thursday, friday];  // equation to define variable
 
- week[0] =   week[1] + week[2] + week[3] + week[4];  // equation to declare total amount of money all week.
-
- var total = week[0];           // defining total amount of money spent for the week
- var nTotal = total/=5;              // equation to define total amount of money spent each day.
+ var total= week[0] + week[1] + week[2] + week[3] + week[4];  // equation to declare total amount of money all week.
+ var nTotal = total/=5;
+ var weekTotal= total *=5;
+              // equation to define total amount of money spent each day.
  console.log("The amount of money that was spent on monday was " + monday + " dollars, on tuesday it was "+ tuesday +
- " dollars,on Wednesday it was " + wednesday + " dollars,on Thursday it was " + thursday + " dollars,on Friday it was " + friday+ " dollars. " +
- "The total amount of money spent for the week is " + week[0] + " dollars. The average amount of money spent per day this week was "
+ " dollars, on Wednesday it was " + wednesday + " dollars, on Thursday it was " + thursday + " dollars, on Friday it was " + friday+ " dollars. " +
+ "The total amount of money spent for the week is " + weekTotal + " dollars. The average amount of money spent per day this week was "
  + nTotal+ " dollars.");  // Text string that is output to webpage.
 
 
