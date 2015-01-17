@@ -32,12 +32,13 @@ if(milesLeft >= 200){console.log("Yes, you can make it without stopping for gas.
 
 //A+95-100 A 90-94 B+ 85-89 B 80-84 C+76-79 C73-75 D70-72 F0-69
 
-var x = 65;
+var x = 82;
 var grade;
 
-grade= (100>=x>=95)? "You have earned a " + x + "% which is an A+ in the class. " : (94>=x>=90)? "You have earned a " + x + "% which is an A in the class."
-    : (89>=x>=85)? "You have earned a " + x + "% which is an B+ in the class." : (84>=x>=80)? "You have earned a " + x + "% which is an B in the class."
-    : (79>=x>=76)? "You have earned a " + x + "% which is an C+ in the class.":
-    (75>=x>=73)? "You have earned a " + x + "% which is an C in the class.": (72>=x>=70)? "You have earned a " + x + "% which is an D in the class."
-        : "You have earned a " + x + "% which is an F in the class.";
+grade= (x>=95)? "You have earned a " + x + "% which is a A+ in the class. " : (x>=90)? "You have earned a " + x + "% which is a A in the class."
+    : (x>=85)? "You have earned a " + x + "% which is a B+ in the class." : (x>=80)? "You have earned a " + x + "% which is a B in the class."
+    : (x>=76)? "You have earned a " + x + "% which is a C+ in the class.":
+    (x>=73)? "You have earned a " + x + "% which is a C in the class.":
+        (x>=70)? "You have earned a " + x + "% which is a D in the class."
+        : "You have earned a " + x + "% which is a F in the class.";
 console.log(grade);
