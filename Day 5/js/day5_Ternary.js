@@ -35,6 +35,6 @@ if(gpa> 2.0){console.log("Congrats you can graduate")
  // if the child is older then 15 then he can read twilight
  book= (age<10)? ("Green eggs and Ham") : "The time machine";
 
- var book2 = (age<10)? "Green eggs and Ham" : (age<15) ? "The Time machine" : "Twilight"
+ var book2 = (age<10)? "Green eggs and Ham" : (age<15) ? "The Time machine" : "Twilight";
  console.log("You should read " + book ) ;
  console.log (book2);
