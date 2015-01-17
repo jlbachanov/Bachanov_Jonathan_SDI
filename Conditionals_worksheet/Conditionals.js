@@ -32,7 +32,7 @@ if(milesLeft >= 200){console.log("Yes, you can make it without stopping for gas.
 
 //A+95-100 A 90-94 B+ 85-89 B 80-84 C+76-79 C73-75 D70-72 F0-69
 
-var x = 82;
+var x = 94;
 var grade;
 
 grade= (x>=95)? "You have earned a " + x + "% which is a A+ in the class. " : (x>=90)? "You have earned a " + x + "% which is a A in the class."
@@ -42,3 +42,12 @@ grade= (x>=95)? "You have earned a " + x + "% which is a A+ in the class. " : (x
         (x>=70)? "You have earned a " + x + "% which is a D in the class."
         : "You have earned a " + x + "% which is a F in the class.";
 console.log(grade);
+
+// To meet to maintenance standards a car’s front two tires should have the same pressure and the back two tires should have the same
+// pressure. But the front tires and the rear tires can have different pressure than each other, so it is
+// not necessary for all four tires’ pressure to be the same. Create a single conditional that would determine
+// if the tires of a given car are up to spec
+
+var tires= [30, 30,11 ,22 ];
+if(tires[1]===tires[2] && tires[3]===tires[4]){console.log("Tires pass the test.");}
+else{console.log("Get your tires checked.");}

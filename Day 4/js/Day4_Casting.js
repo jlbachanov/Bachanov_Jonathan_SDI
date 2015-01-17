@@ -43,10 +43,10 @@ Casting
  var a = parseInt("40 years old");
  console.log(a);
 
- var b = parseInt("I am 40 years old");
+ var b = parseInt("39 years old");
  console.log(b);
 
- var c= Number("40 years old");
+ var c= Number("40");
  console.log(c);
 
  // Prompts ONLY return strings
