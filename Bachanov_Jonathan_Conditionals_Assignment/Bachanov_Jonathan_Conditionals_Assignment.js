@@ -17,16 +17,16 @@ Prompting*/
  d. At	least	1	Logical	Operator	&&	,	||	or	!
      e. Must	contain	at	least	3	user	prompts	that	are	used	in	calculations
  f. All	prompts	must	be	validated
- // I want to go on a vacation.  I have to find out how much to spend on a flight.  Depending on how much the flight is and
- how much my vacation budget is. I can figure out whether I can afford to go fishing, partying, and shopping.
+ //  A person wants to go on a nice vacation. Depending on their costs, we will find out what they can and can't afford
+ on vacation or if they even can go at all.
 
  */
 
 var vacation= prompt("How much money do you have to spend for vacation");  // Declare variable for vacation
  var flight= prompt("How much money do you have to spend on a flight");// Declare variable for flight
  var hotel= prompt("How much money do you have to spend on a hotel");// Declare a variable for hotel
- var fishing= 100;
- var partying= 150;
+ var fishing= 50;
+ var partying= 50;
  var shopping=200;
 
 
@@ -37,17 +37,22 @@ var vacation= prompt("How much money do you have to spend for vacation");  // De
 
 
  if (flight==="") {
-  prompt("How much did you want to " + "spend on your flight");
+  prompt("How much is the cost on your flight?");
  }
 
  if (hotel===""){
-  prompt("How much did you want to spend on your hotel?");
+  prompt("How much is the cost on your hotel?");
  }
 
- if (vacation>=flight + hotel + fishing + partying + shopping  && vacation>= 2000 ){console.log("You have enough money to go shopping, fishing," +
- " partying and your vacation was expensive. ");} else if (vacation>=flight + hotel + fishing + partying + shopping ){console.log("You have enough " +
- "money to go shopping fishing, partying and had a nice budget vacation.");}
- else if (vacation>= flight + hotel +fishing + partying){console.log("You have enough money to go on vacation, go fishing and party?");}
-else{
- (vacation>= flight + hotel + fishing)? console.log("You are having a really cheap vacation and can only afford to go fishing.") :
-     console.log ("you cant go on vacation");}
+ if (vacation>=flight + hotel + fishing + partying + shopping  && vacation>= 2000 )
+ {console.log("You have enough money to go shopping, fishing," +
+
+ " partying and your vacation was expensive. ");}
+ else if (vacation>=flight + hotel + fishing + partying + shopping ){console.log("You have enough " +
+ "money to go shopping, fishing, partying and have a nice budget vacation.");}
+
+ else if (vacation>= flight + hotel +fishing + partying){console.log("You have enough money to go on vacation, go fishing and party");}
+else if (vacation >= flight + hotel + fishing) {console.log("You are having a really cheap vacation and can only afford to go fishing.");
+ } else {
+  console.log("you cant go on vacation");
+ }
