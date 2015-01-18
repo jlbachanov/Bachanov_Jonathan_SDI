@@ -13,7 +13,6 @@ var avengersNames= ["Thor","Captain America","Ironman"];
 // Print it out on the Console
 console.log(avengersNames);
 console.log(avengersNames[1]);
-re
 //Switch a team member
 avengersNames[2]= "Spider-Man";
 

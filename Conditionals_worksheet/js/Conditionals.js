@@ -12,14 +12,14 @@
 //Gauge reading of the gas tank (in %)
 //Car’s gas tank capacity (in gallons)
 
-var mpg= prompt("What is the mpg of your car?");
-var gasTank= prompt("What is the percentage of gas left in the tank?");
-var tankSize= prompt("How many gallons does the gas tank hold?");
-var miles= 200;
-var milesLeft= tankSize * mpg * (gasTank/100);
-var gallonsLeft= milesLeft/mpg;
+var mpg= prompt("What is the mpg of your car?"); // Ask user the mpg
+var gasTank= prompt("What is the percentage of gas left in the tank?");//ask user pct of tank left.
+var tankSize= prompt("How many gallons does the gas tank hold?");// ask user tanksize in gallons
+var miles= 200; // total of miles
+var milesLeft= tankSize * mpg * (gasTank/100); // miles left equations
+var gallonsLeft= milesLeft/mpg; // gallonsLeft equations
 
-mpg= parseInt(mpg);
+mpg= parseInt(mpg); //
 gasTank= parseInt(gasTank);
 tankSize=parseInt(tankSize);
 
