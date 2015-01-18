@@ -43,16 +43,15 @@ var vacation= prompt("How much money do you have to spend for vacation");  // De
  if (hotel===""){
   prompt("How much is the cost on your hotel?");
  }
+vacation= parseInt(vacation);
+ flight=parseInt(flight);
+ hotel=parseInt(hotel);
 
- if (vacation>=flight + hotel + fishing + partying + shopping  && vacation>= 2000 )
- {console.log("You have enough money to go shopping, fishing," +
+ if (vacation>=flight + hotel + fishing + partying + shopping  && vacation>= 2000 ) {console.log("You have enough money to go shopping, fishing," +
 
  " partying and your vacation was expensive. ");}
- else if (vacation>=flight + hotel + fishing + partying + shopping ){console.log("You have enough " +
+ else if (vacation>=(flight + hotel + fishing + partying + shopping) ){console.log("You have enough " +
  "money to go shopping, fishing, partying and have a nice budget vacation.");}
 
- else if (vacation>= flight + hotel +fishing + partying){console.log("You have enough money to go on vacation, go fishing and party");}
-else if (vacation >= flight + hotel + fishing) {console.log("You are having a really cheap vacation and can only afford to go fishing.");
- } else {
-  console.log("you cant go on vacation");
- }
+ else if (vacation>= (flight + hotel +fishing + partying)){console.log("You have enough money to go on vacation, go fishing and party");}
+else   console.log("You are having a really cheap vacation and can only afford to go fishing.");
