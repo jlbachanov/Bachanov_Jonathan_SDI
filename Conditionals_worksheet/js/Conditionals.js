@@ -23,7 +23,7 @@ mpg= parseInt(mpg); //
 gasTank= parseInt(gasTank);
 tankSize=parseInt(tankSize);
 
-if(milesLeft >= 200){console.log("Yes, you can make it without stopping for gas.");
+if(milesLeft >= miles){console.log("Yes, you can make it without stopping for gas.");
 
 }else {console.log("You only have " + gallonsLeft+ " gallons of gas in your tank, better get gas now while you can!");}
 

@@ -3,55 +3,55 @@
 Jonathan Bachanov
 SDI Campus
 1/13/2015
-Prompting*/
+Prompting Conditionals Assignments*/
 
-// alert("Testing to see if it works");
 
-/* Brainstorm	an	original	idea	for	a	calculator	of	some	kind.		This	should	not	be	anything
- we	have	covered	in	class	and	not	the	same	as	any	of	your	other	projects.
-     Keep	in	mind	that	your	final	project	must	contain the	following:
-     a. An	example	of	2 different	arithmetic	operators (addition	and subtraction,
-     addition	and multiplication,	subtraction	and division,	etc.).
- b. 2	conditional	statements	– A	least	one	must	contain	an	else	if	statement
-  c. At	least	1	ternary	conditional	statement	must	be	used
- d. At	least	1	Logical	Operator	&&	,	||	or	!
-     e. Must	contain	at	least	3	user	prompts	that	are	used	in	calculations
- f. All	prompts	must	be	validated
- //  A person wants to go on a nice vacation. Depending on their costs, we will find out what they can and can't afford
- on vacation or if they even can go at all.
+ //  A person wants to go on a nice budget vacation. Depending on their costs,
+ // we will find out what they can and can't afford.
 
- */
 
-var vacation= prompt("How much money do you have to spend for vacation");  // Declare variable for vacation
- var flight= prompt("How much money do you have to spend on a flight");// Declare variable for flight
- var hotel= prompt("How much money do you have to spend on a hotel");// Declare a variable for hotel
- var fishing= 50;
- var partying= 50;
- var shopping=200;
+var flight= prompt("Assuming your budget is $2,000 for vacation, how much would you spend on a flight?");  // Declare variable for budget
+ var hotel= prompt("How much money would spend on a hotel?");// Declare variable for flight
+ var activities = prompt("How much money would you spend for the activities?");// Declare a variable for hotel
 
 
 
- if (vacation===""){
-  prompt("How much did you want to spend for vacation?");
- }
 
 
- if (flight==="") {
-  prompt("How much is the cost on your flight?");
- }
+ if  (flight==="")  {flight1=
+  prompt("How much did you want to spend on a flight?");}
 
- if (hotel===""){
-  prompt("How much is the cost on your hotel?");
- }
-vacation= parseInt(vacation);
- flight=parseInt(flight);
- hotel=parseInt(hotel);
+ if (hotel==="") { hotel1=
+  prompt("How much is the cost on your hotel?");}
 
- if (vacation>=flight + hotel + fishing + partying + shopping  && vacation>= 2000 ) {console.log("You have enough money to go shopping, fishing," +
+ if (activities===("")){var activities1=
+  prompt("How much would you spend for the activities?");}
 
- " partying and your vacation was expensive. ");}
- else if (vacation>=(flight + hotel + fishing + partying + shopping) ){console.log("You have enough " +
- "money to go shopping, fishing, partying and have a nice budget vacation.");}
+ activities= parseInt(activities)||parseInt(activities1);
+ flight= parseInt(flight)|| parseInt(flight1);
+ hotel= parseInt(hotel) || parseInt(hotel1);
 
- else if (vacation>= (flight + hotel +fishing + partying)){console.log("You have enough money to go on vacation, go fishing and party");}
-else   console.log("You are having a really cheap vacation and can only afford to go fishing.");
+ total= activities + flight + hotel;
+
+ total2= (total<=2000)? ("You have enough money to go on vacation and do all the activities.") :
+     (total-activities <= 2000) ? ("You have enough money to go on vacation, but can't do any activities") :
+         ("You are to broke and can't go on vacation.");
+
+ console.log(total2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
