@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cf3c339c-15ee-42e0-9d7c-1c9f3357e619" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bachanov_Jonathan_Conditionals_Assignment/Bachanov_Jonathan_Conditionals_Assignment.js" afterPath="$PROJECT_DIR$/Bachanov_Jonathan_Conditionals_Assignment/Bachanov_Jonathan_Conditionals_Assignment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conditionals_worksheet/js/Conditionals.js" afterPath="$PROJECT_DIR$/Conditionals_worksheet/js/Conditionals.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Bachanov_Jonathan_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,8 +49,8 @@
       <file leaf-file-name="Bachanov_Jonathan_Conditionals_Assignment.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Bachanov_Jonathan_Conditionals_Assignment/Bachanov_Jonathan_Conditionals_Assignment.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="945">
-              <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.8718331" vertical-offset="0" max-vertical-offset="945">
+              <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -924,8 +922,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Bachanov_Jonathan_Conditionals_Assignment/Bachanov_Jonathan_Conditionals_Assignment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="945">
-          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+        <state vertical-scroll-proportion="0.8718331" vertical-offset="0" max-vertical-offset="945">
+          <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
           <folding />
         </state>
       </provider>
