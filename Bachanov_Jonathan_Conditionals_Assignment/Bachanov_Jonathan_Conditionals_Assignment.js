@@ -11,9 +11,9 @@ Prompting Conditionals Assignments*/
 
 
 var flight= prompt("Assuming your budget is $2,000 for vacation, how much would you spend on a flight?");  // Declare variable for budget
- var hotel= prompt("How much money would spend on a hotel?");// Declare variable for flight
+ var hotel= prompt("How much money would you spend on a hotel?");// Declare variable for flight
  var activities = prompt("How much money would you spend for the activities?");// Declare a variable for hotel
-
+var budget=2000;
 
 
 
@@ -24,7 +24,7 @@ var flight= prompt("Assuming your budget is $2,000 for vacation, how much would 
  if (hotel==="") { hotel1=
   prompt("How much is the cost on your hotel?");}// if statement that will re ask prompt.
 
- if (activities===("")){var activities1=
+ if (activities===("")){activities1=
   prompt("How much would you spend for the activities?");}//if statement that will re ask prompt
 
  activities= parseInt(activities)||parseInt(activities1);// taking out integer "or" statement to define value of activities.
@@ -35,9 +35,9 @@ var flight= prompt("Assuming your budget is $2,000 for vacation, how much would 
 
  total2= (total<=2000)? ("You have enough money to go on vacation and do all the activities.") :// ternary if total<= 2,000 then "".
      (total-activities <= 2000) ? ("You have enough money to go on vacation, but can't do any activities") ://ternary else if  total minus activities <= 2000 then ""
-         ("You are to broke and can't go on vacation.");// else you cant go
+         ("Your trying to spend money you don't have.");// else you cant go
 
- console.log(total2); /// outputing the total2.
+ console.log (alert(total2)); /// outputing the total2.
 
 
 
