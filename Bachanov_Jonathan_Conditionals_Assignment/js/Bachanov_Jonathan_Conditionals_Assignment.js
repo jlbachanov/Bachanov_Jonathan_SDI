@@ -37,7 +37,7 @@ var budget=2000;
      (total-activities <= 2000) ? ("You have enough money to go on vacation, but can't do any activities") ://ternary else if  total minus activities <= 2000 then ""
          ("Your trying to spend money you don't have.");// else you cant go
 
- console.log (alert(total2)); /// outputing the total2.
+ console.log (total2); /// outputing the total2.
 
 
 
