@@ -6,29 +6,25 @@
 
 // How big do you think the Pyramid of Giza is?
 
-var h= prompt("How many feet high do you think the Great Pyramid of Giza is?"); //declaring variable and prompting user to answer how tall the pyramid of giza.
-while (h===""||isNaN(h)){
-    prompt("Please do not leave blank and enter number. \nHow many feet high do you think the Great Pyramid of Giza is?.");
+var height= prompt("How many meters high do you think the Great Pyramid of Giza is?"); //declaring variable and prompting user to answer how tall the pyramid of giza.
+while (height===""||isNaN(height)){
+    height=prompt("Please do not leave blank and enter number. \nHow many meters high do you think the Great Pyramid of Giza is?.");
 }
-var w= prompt("How many feet do you think the width of the Great Pyramid of Giza is?");// declaring variable and prompting user to answer how tall their fridge is.
-while(w===""||isNaN(w)){
-    prompt("Please do not leave blank and enter a number. \nHow many feet do you think the width of the Great Pyramid of Giza is?")
+var width= prompt("How many meters do you think the width of the Great Pyramid of Giza is?");// declaring variable and prompting user to answer how tall their fridge is.
+while(width===""||isNaN(width)){
+    width= prompt("Please do not leave blank and enter a number. \nHow many meters do you think the width of the Great Pyramid of Giza is?")
 }
-var l= prompt("How many feet do you think the length of the Great Pyramid of Giza is?");
-while(l===""||isNaN(l)){
-    prompt("Please do not leave blank. \nHow many feet do you think the length of the Great Pyramid of Giza is?");
+var length= prompt("How many meters do you think the length of the Great Pyramid of Giza is?");
+while(length===""||isNaN(length)){
+   length= prompt("Please do not leave blank. \nHow many meters do you think the length of the Great Pyramid of Giza is?");
 }
 
-h= parseInt(h);
-w= parseInt(w);
-l= parseInt(l);
 
-function userInput(h,w,l) {
-    var userTotal= .333*h*w*l;
-    return userTotal;
-}
- var userResults= userInput(h,w,l);
- console.log(userResults);
+function calcVolume(h,w,l){
+    var volume= h*w*l*.3333;
+    return volume;
  
+}
 
-//var giza= 8486909.46
+var results=calcVolume(width,height,length);
+console.log(results);
