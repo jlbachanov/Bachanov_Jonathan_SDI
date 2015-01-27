@@ -26,5 +26,18 @@ function calcVolume(h,w,l){
  
 }
 
-var results=calcVolume(width,height,length);
-console.log(results);
+
+var results=calcVolume(height,width,length);
+
+var difference= function (r,g){
+    var both= r+g;
+    return both;};
+
+var totalBoth= difference(results,2586810);
+
+console.log("You thought the Great Pyramid was " + results.toFixed(2)+ " cubic meters. Your prediction and the actual Pyramid combined are " + totalBoth.toFixed(2) + " cubic meters.");
+   
+    
+    
+    
+
