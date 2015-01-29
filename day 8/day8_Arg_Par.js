@@ -39,3 +39,32 @@ dogYears(25);
 var userAge= prompt("How old are you?");
 
 dogYears(Number(userAge));
+
+
+
+
+
+
+
+
+function calcArea(h,w,l);
+var area= h*W*l;
+return area;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
